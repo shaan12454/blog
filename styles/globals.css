@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-white text-slate-800 antialiased;
+  line-height: 1.6;
+}
+
+.container {
+  @apply max-w-3xl mx-auto px-4;
+}
